@@ -1,0 +1,131 @@
+/*font minecraft taken from www.dafont.com*/
+@font-face { 
+font-family: "minecraft";
+src: url('../fonts/Minecraft.ttf'); 
+}
+/*style for canvas playing field*/
+#myCanvasGame {
+margin-left: -320px;
+position: absolute;
+left: 50%;
+border:  5px solid white;
+background-color: black;
+}
+/*style for canvas life field*/
+#myCanvasLife {
+margin-left: -320px;
+position: absolute;
+top: 510px;
+left: 50%;
+border:  5px solid white;
+background-color: black;
+}
+/*style for complete body*/
+body { 
+background-color: black;
+font-family: minecraft;
+color: white;
+}
+/*style for h1 text*/
+h1 { 
+font-size: 200px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+/*style for h2 text*/
+h2 { 
+font-size: 100px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+/*page credits: text for name, matrikelnummer etc.*/
+.creditpage_top { 
+font-size: 35px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 10px;
+}
+/*page credits: text reference to fonts, sound and music*/
+.creditpage_bottom { 
+font-size: 20px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 10px;
+}
+/* page highscore: table to display player name und points*/
+table { 
+font-size: 50px;
+text-align: left;
+margin: auto;
+}
+/* page highscore: table to display player name und points*/
+td {
+padding: 0.2em 0.5em;
+} 
+/* page highscore: table to display player name und points*/
+td:nth-of-type(3) {
+text-align: right;
+}
+/* page mainpage: organisation of links leading to sub pages*/
+.mainpage { 
+margin: auto;
+width: 500px;
+}
+/* page helppage: position for keyboard controls*/
+.helppage { 
+font-size: 35px;
+margin-left: -200px;
+position: absolute;
+left: 50%;
+top: 250px;
+width: 500px;
+}
+/* link on all subpages to return to mainpage*/
+.back2mainpage { 
+margin-left: -250px;
+position: absolute;
+left: 50%;
+top: 720px;
+width: 500px;
+}
+/* field to submit player name to highscore*/
+#inputHighscoreName { 
+font-size: 30px;
+margin-left: -440px;
+position: absolute;
+left: 50%;
+top: 600px;
+}
+/* format for input field*/
+input[type=text] {
+font-family: minecraft;
+font-size: 25px;
+width: 400px;
+padding: 12px 20px;
+position: absolute;
+top: 400px;
+margin: auto;
+left: 50%;
+margin-left: -200px;
+box-sizing: border-box;
+border: 1px solid #555;
+outline: none;
+}
+/* linkstyle*/ 
+a:link, a:visited {
+font-size: 50px;
+color: white;
+border: 2px solid white;
+padding: 15px 0px 5px 0px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+width:496px;
+}
+/* invert links if mouse over*/
+a:hover { 
+background-color: white;
+color: black;
+}
